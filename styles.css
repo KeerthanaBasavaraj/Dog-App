@@ -1,3 +1,51 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    color: #1c04e2;
+    text-align: center;
+}
+
+#fixed-top {
+  overflow: hidden;
+  position: fixed;
+  margin: 0px;
+  top: 0;
+  background-color: #e3e5f3;
+  width: 100%; 
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color:#14219b;
+  color: #d5d0d0;
+}
+
+button:hover{
+  background-color: #1c04e2;
+  font-size: 21px;
+}
+
+#image-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 130px auto 10px auto;
+}
+figure{
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+}
+figcaption {
+  font-family: cursive;
+  text-align: center;
+  color: #333;
+  padding: 10px;
+}
